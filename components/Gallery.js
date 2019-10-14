@@ -1,9 +1,9 @@
-const Gallery = ({ images }) => (
+const Gallery = ({ works }) => (
   <div className="gallery">
-    {images.map(image => {
+    {works.map(work => {
       return (
-        <div className="image" key={image}>
-          <img src={image} />
+        <div className="image" key={work.path}>
+          <img src={work.path} />
         </div>
       );
     })}
