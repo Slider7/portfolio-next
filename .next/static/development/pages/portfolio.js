@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\index.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\portfolio.js"],{
 
 /***/ "./components/Footer.js":
 /*!******************************!*\
@@ -40,6 +40,100 @@ var Footer = function Footer() {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Footer);
+
+/***/ }),
+
+/***/ "./components/Gallery.js":
+/*!*******************************!*\
+  !*** ./components/Gallery.js ***!
+  \*******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "C:\\Projects\\port-next\\components\\Gallery.js";
+
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
+
+var Gallery = function Gallery(_ref) {
+  var works = _ref.works;
+  return __jsx("div", {
+    className: "jsx-2171517383" + " " + "gallery",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 2
+    },
+    __self: this
+  }, works.map(function (work) {
+    return __jsx("div", {
+      key: work.path,
+      className: "jsx-2171517383" + " " + "portfolio-item",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 5
+      },
+      __self: this
+    }, __jsx("img", {
+      src: work.path,
+      className: "jsx-2171517383",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 6
+      },
+      __self: this
+    }), __jsx("div", {
+      className: "jsx-2171517383" + " " + 'info',
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 7
+      },
+      __self: this
+    }, __jsx("p", {
+      className: "jsx-2171517383",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 8
+      },
+      __self: this
+    }, work.description), __jsx("div", {
+      className: "jsx-2171517383",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 9
+      },
+      __self: this
+    }, __jsx("a", {
+      href: work.link,
+      target: "_blank",
+      className: "jsx-2171517383" + " " + 'link-btn',
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 10
+      },
+      __self: this
+    }, "\u041F\u0440\u043E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C"), __jsx("a", {
+      href: work.github,
+      target: "_blank",
+      className: "jsx-2171517383" + " " + 'link-btn',
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 11
+      },
+      __self: this
+    }, "GitHub"))));
+  }), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    id: "2171517383",
+    __self: this
+  }, ".gallery.jsx-2171517383{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin-bottom:50px;max-width:1240px;min-width:330px;margin:0px auto;}.gallery.jsx-2171517383 .portfolio-item.jsx-2171517383{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;padding:20px;box-shadow:0px 0px 7px 1px grey;border:1px solid grey;width:80%;height:300px;margin-top:20px;}.portfolio-item.jsx-2171517383 img.jsx-2171517383{width:40%;}.portfolio-item.jsx-2171517383 .info.jsx-2171517383{width:55%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}.link-btn.jsx-2171517383{border:1px solid grey;display:inline-block;width:150px;}.link-btn.jsx-2171517383:nth-child(2){margin-left:40px;}.link-btn.jsx-2171517383:hover{background:dodgerblue;color:white;}@media (max-width:845px){.gallery.jsx-2171517383 .portfolio-item.jsx-2171517383{width:auto;height:250px;padding:10px 20px;font-size:1rem;}.portfolio-item.jsx-2171517383 .info.jsx-2171517383 .link-btn.jsx-2171517383{margin-left:5px;width:120px;}}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxQcm9qZWN0c1xccG9ydC1uZXh0XFxjb21wb25lbnRzXFxHYWxsZXJ5LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQWlCZ0IsQUFHc0IsQUFVQSxBQVdILEFBR0EsQUFPWSxBQUtMLEFBR0ssQUFNVCxBQU1LLFVBN0JwQixBQUdjLENBcUJHLEtBTUQsQ0FmaEIsS0FMdUIsQUFRVCxFQU9RLElBTXBCLE1BWkYsUUFPbUIsQ0FmTCxZQUNkLEVBZUUsaUJBaERlLEFBVUEsVUFlQSwrQ0F4Qk8sQUFVUSxVQWVQLG9FQXhCSiwrQkF5QkEsTUFmTixhQUNtQixnQ0FDVixXQVhILFdBWVQsUUFYTyxFQVlKLFVBWWYsR0FYa0IsRUFaQSxjQWFsQixFQVprQixnQkFDbEIiLCJmaWxlIjoiQzpcXFByb2plY3RzXFxwb3J0LW5leHRcXGNvbXBvbmVudHNcXEdhbGxlcnkuanMiLCJzb3VyY2VzQ29udGVudCI6WyJjb25zdCBHYWxsZXJ5ID0gKHsgd29ya3MgfSkgPT4gKFxyXG4gIDxkaXYgY2xhc3NOYW1lPVwiZ2FsbGVyeVwiPlxyXG4gICAge3dvcmtzLm1hcCh3b3JrID0+IHtcclxuICAgICAgcmV0dXJuIChcclxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInBvcnRmb2xpby1pdGVtXCIga2V5PXt3b3JrLnBhdGh9PlxyXG4gICAgICAgICAgPGltZyBzcmM9e3dvcmsucGF0aH0gLz5cclxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSdpbmZvJz5cclxuICAgICAgICAgICAgPHA+e3dvcmsuZGVzY3JpcHRpb259PC9wPlxyXG4gICAgICAgICAgICA8ZGl2PlxyXG4gICAgICAgICAgICAgIDxhIGNsYXNzTmFtZT0nbGluay1idG4nIGhyZWY9IHt3b3JrLmxpbmt9IHRhcmdldD0nX2JsYW5rJz7Qn9GA0L7RgdC80L7RgtGA0LXRgtGMPC9hPlxyXG4gICAgICAgICAgICAgIDxhIGNsYXNzTmFtZT0nbGluay1idG4nIGhyZWY9IHt3b3JrLmdpdGh1Yn0gdGFyZ2V0PSdfYmxhbmsnPkdpdEh1YjwvYT5cclxuICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICA8L2Rpdj5cclxuICAgICAgKTtcclxuICAgIH0pfVxyXG5cclxuICAgIDxzdHlsZSBqc3g+e2BcclxuICAgICAgLmdhbGxlcnkge1xyXG4gICAgICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICAgICAgZmxleC13cmFwOiB3cmFwO1xyXG4gICAgICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XHJcbiAgICAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcclxuICAgICAgICBtYXJnaW4tYm90dG9tOiA1MHB4O1xyXG4gICAgICAgIG1heC13aWR0aDogMTI0MHB4O1xyXG4gICAgICAgIG1pbi13aWR0aDogMzMwcHg7XHJcbiAgICAgICAgbWFyZ2luOiAwcHggYXV0bztcclxuICAgICAgfVxyXG4gICAgICAuZ2FsbGVyeSAucG9ydGZvbGlvLWl0ZW0ge1xyXG4gICAgICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICAgICAgZmxleC13cmFwOiB3cmFwO1xyXG4gICAgICAgIGp1c3RpZnktY29udGVudDogc3BhY2UtYmV0d2VlbjtcclxuICAgICAgICBwYWRkaW5nOiAyMHB4O1xyXG4gICAgICAgIGJveC1zaGFkb3c6IDBweCAwcHggN3B4IDFweCBncmV5O1xyXG4gICAgICAgIGJvcmRlcjogMXB4IHNvbGlkIGdyZXk7XHJcbiAgICAgICAgd2lkdGg6IDgwJTtcclxuICAgICAgICBoZWlnaHQ6IDMwMHB4O1xyXG4gICAgICAgIG1hcmdpbi10b3A6IDIwcHg7XHJcbiAgICAgIH1cclxuICAgICAgLnBvcnRmb2xpby1pdGVtIGltZ3tcclxuICAgICAgICB3aWR0aDogNDAlO1xyXG4gICAgICB9XHJcbiAgICAgIC5wb3J0Zm9saW8taXRlbSAuaW5mb3tcclxuICAgICAgICB3aWR0aDogNTUlO1xyXG4gICAgICAgIGRpc3BsYXk6ZmxleDtcclxuICAgICAgICBmbGV4LXdyYXA6IHdyYXA7XHJcbiAgICAgICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XHJcbiAgICAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcclxuICAgICAgfVxyXG4gICAgICAubGluay1idG57XHJcbiAgICAgICAgYm9yZGVyOiAxcHggc29saWQgZ3JleTtcclxuICAgICAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XHJcbiAgICAgICAgd2lkdGg6IDE1MHB4O1xyXG4gICAgICB9XHJcbiAgICAgIC5saW5rLWJ0bjpudGgtY2hpbGQoMil7XHJcbiAgICAgICAgbWFyZ2luLWxlZnQ6IDQwcHg7XHJcbiAgICAgIH1cclxuICAgICAgLmxpbmstYnRuOmhvdmVye1xyXG4gICAgICAgIGJhY2tncm91bmQ6IGRvZGdlcmJsdWU7XHJcbiAgICAgICAgY29sb3I6IHdoaXRlO1xyXG4gICAgICB9XHJcbiAgICAgIFxyXG4gICAgICBAbWVkaWEgKG1heC13aWR0aDogODQ1cHgpIHtcclxuICAgICAgICAuZ2FsbGVyeSAucG9ydGZvbGlvLWl0ZW0ge1xyXG4gICAgICAgICAgd2lkdGg6IGF1dG87XHJcbiAgICAgICAgICBoZWlnaHQ6IDI1MHB4O1xyXG4gICAgICAgICAgcGFkZGluZzogMTBweCAyMHB4O1xyXG4gICAgICAgICAgZm9udC1zaXplOiAxcmVtO1xyXG4gICAgICAgIH1cclxuICAgICAgICAucG9ydGZvbGlvLWl0ZW0gLmluZm8gLmxpbmstYnRue1xyXG4gICAgICAgICAgbWFyZ2luLWxlZnQ6IDVweDtcclxuICAgICAgICAgIHdpZHRoOiAxMjBweDtcclxuICAgICAgICB9XHJcbiAgICAgIH1cclxuICAgIGB9PC9zdHlsZT5cclxuICA8L2Rpdj5cclxuKTtcclxuXHJcbmV4cG9ydCBkZWZhdWx0IEdhbGxlcnk7Il19 */\n/*@ sourceURL=C:\\Projects\\port-next\\components\\Gallery.js */"));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Gallery);
 
 /***/ }),
 
@@ -5020,21 +5114,21 @@ module.exports = bind.call(Function.call, Object.prototype.hasOwnProperty);
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CProjects%5Cport-next%5Cpages%5Cindex.js!./":
-/*!***********************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CProjects%5Cport-next%5Cpages%5Cindex.js ***!
-  \***********************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fportfolio&absolutePagePath=C%3A%5CProjects%5Cport-next%5Cpages%5Cportfolio.js!./":
+/*!************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fportfolio&absolutePagePath=C%3A%5CProjects%5Cport-next%5Cpages%5Cportfolio.js ***!
+  \************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/", function() {
-      var mod = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/portfolio", function() {
+      var mod = __webpack_require__(/*! ./pages/portfolio.js */ "./pages/portfolio.js")
       if(true) {
-        module.hot.accept(/*! ./pages/index.js */ "./pages/index.js", function() {
-          if(!next.router.components["/"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
-          next.router.update("/", updatedPage)
+        module.hot.accept(/*! ./pages/portfolio.js */ "./pages/portfolio.js", function() {
+          if(!next.router.components["/portfolio"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/portfolio.js */ "./pages/portfolio.js")
+          next.router.update("/portfolio", updatedPage)
         })
       }
       return mod
@@ -11888,183 +11982,92 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./pages/index.js":
-/*!************************!*\
-  !*** ./pages/index.js ***!
-  \************************/
+/***/ "./pages/portfolio.js":
+/*!****************************!*\
+  !*** ./pages/portfolio.js ***!
+  \****************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
-var _jsxFileName = "C:\\Projects\\port-next\\pages\\index.js";
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
+/* harmony import */ var _components_Gallery__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Gallery */ "./components/Gallery.js");
+var _jsxFileName = "C:\\Projects\\port-next\\pages\\portfolio.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
-var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
+var works = [{
+  path: "/static/img/neutron.jpg",
+  description: 'Шаблон веб-страницы почтового клиента, верстка с нуля из макета Photoshop.',
+  link: 'https://slider7.github.io/neutron-mail/',
+  github: 'https://github.com/Slider7/neutron-mail'
+}, {
+  path: "/static/img/nextphotos.jpg",
+  description: 'Интерфейс фотостока на основе API Unsplash, next.js.',
+  link: 'https://next-photos.netlify.com/',
+  github: 'https://github.com/Slider7/photos-next'
+}, {
+  path: "/static/img/valombard.jpg",
+  description: 'Сайт для небольшого ломбарда, Bootstrap.',
+  link: 'https://slider7.github.io/VAlombard/',
+  github: 'https://github.com/Slider7/valombard'
+}, {
+  path: "/static/img/piskel.jpg",
+  description: 'Клон веб приложения piskelApp, React.js',
+  link: 'https://slider7.github.io/piskel-clone/',
+  github: 'https://github.com/Slider7/piskel-clone'
+}, {
+  path: "/static/img/youtube.jpg",
+  description: 'Youtube-клиент для поиска и просмотра на основе Youtube API, vanilla JS.',
+  link: 'https://slider7.github.io/youtube-client/',
+  github: 'https://github.com/Slider7/youtube-client/'
+}, {
+  path: "/static/img/rss-chat.jpg",
+  description: 'Чат-клиент на основе websocket, React.js.',
+  link: 'https://slider7.github.io/rss-chat',
+  github: 'https://github.com/Slider7/rss-chat/'
+}];
 
-
-var Homepage = function Homepage() {
-  return __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_2__["default"], {
+var Portfolio = function Portfolio() {
+  return __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    title: "Portfolio",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 4
+      lineNumber: 45
     },
     __self: this
-  }, __jsx("h2", {
-    className: "jsx-897392319",
+  }, __jsx("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5
+      lineNumber: 46
     },
     __self: this
-  }, "\u0414\u043E\u0431\u0440\u043E \u043F\u043E\u0436\u0430\u043B\u043E\u0432\u0430\u0442\u044C \u043D\u0430 \u043C\u043E\u0439 \u0441\u0430\u0439\u0442!"), __jsx("div", {
-    className: "jsx-897392319" + " " + "about-text",
+  }, "Portfolio"), __jsx(_components_Gallery__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    works: works,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 47
     },
     __self: this
-  }, __jsx("img", {
-    src: "/static/img/slider.jpg",
-    className: "jsx-897392319",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }), __jsx("p", {
-    className: "jsx-897392319",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }, __jsx("em", {
-    className: "jsx-897392319",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }, "\u041C\u0435\u043D\u044F \u0437\u043E\u0432\u0443\u0442 \u041A\u0435\u043C\u0430\u043B\u0445\u0430\u043D \u0428\u043B\u0435\u043C\u0431\u0430\u0435\u0432."), " ", __jsx("br", {
-    className: "jsx-897392319",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }), "\u042F - IT-\u0441\u043F\u0435\u0446\u0438\u0430\u043B\u0438\u0441\u0442 \u0438 web \u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u0447\u0438\u043A-\u0441\u0430\u043C\u043E\u0443\u0447\u043A\u0430. \u0412\u0435\u0431-\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0434\u0430\u0435\u0442 \u043C\u043D\u0435 \u0432\u043E\u0437\u043C\u043E\u0436\u043D\u043E\u0441\u0442\u044C \u0441\u0430\u043C\u043E\u0441\u043E\u0432\u0435\u0440\u0448\u0435\u043D\u0441\u0442\u0432\u043E\u0432\u0430\u0442\u044C\u0441\u044F \u0438 \u043F\u043E\u0441\u0442\u043E\u044F\u043D\u043D\u043E \u0440\u0430\u0441\u0442\u0438 \u0432 \u043D\u0430\u0432\u044B\u043A\u0430\u0445. \u041C\u043D\u0435 \u043D\u0440\u0430\u0432\u0438\u0442\u0441\u044F \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u0442\u044C \u0438 \u0443\u0447\u0438\u0442\u044C\u0441\u044F. \u0426\u0435\u043B\u044C - \u043D\u0430\u0439\u0442\u0438 \u0440\u0430\u0431\u043E\u0442\u0443 \u043A\u043E\u0442\u043E\u0440\u0430\u044F \u043F\u043E\u0437\u0432\u043E\u043B\u0438\u0442 \u0440\u0430\u0441\u0442\u0438 \u043F\u0440\u043E\u0444\u0435\u0441\u0441\u0438\u043E\u043D\u0430\u043B\u044C\u043D\u043E, \u0441\u043E\u0437\u0434\u0430\u0432\u0430\u044F \u0447\u0442\u043E-\u0442\u043E \u043F\u043E\u043B\u0435\u0437\u043D\u043E\u0435."), __jsx("p", {
-    className: "jsx-897392319",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    __self: this
-  }, "\u0421\u0442\u0430\u0436 - \u0431\u043E\u043B\u0435\u0435 12 \u043B\u0435\u0442 \u0432 \u0418\u0422-\u0441\u0435\u0440\u0432\u0438\u0441\u0435 - help-desk/\u0442\u0435\u0445\u043F\u043E\u0434\u0434\u0435\u0440\u0436\u043A\u0430, \u043B\u043E\u043A\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0435\u0442\u0438, \u0441\u0438\u0441\u0442\u0435\u043C\u043D\u043E\u0435 \u0430\u0434\u043C\u0438\u043D\u0438\u0441\u0442\u0440\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435."), __jsx("p", {
-    className: "jsx-897392319",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18
-    },
-    __self: this
-  }, __jsx("em", {
-    className: "jsx-897392319",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19
-    },
-    __self: this
-  }, "\u041E\u043F\u044B\u0442 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F"), " - JavaScript, Object Pascal(Delphi), SQL/PL-SQL - \u0440\u0435\u043B\u044F\u0446\u0438\u043E\u043D\u043D\u044B\u0435 \u0421\u0423\u0411\u0414 (Interbase, MySQL, Oracle)."), __jsx("h4", {
-    className: "jsx-897392319",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22
-    },
-    __self: this
-  }, "\u0421\u0435\u0440\u0442\u0438\u0444\u0438\u043A\u0430\u0442\u044B:"), __jsx("ul", {
-    className: "jsx-897392319",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23
-    },
-    __self: this
-  }, __jsx("li", {
-    className: "jsx-897392319",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24
-    },
-    __self: this
-  }, __jsx("a", {
-    href: "https://app.rs.school/certificate/92mvcp5l",
-    className: "jsx-897392319",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24
-    },
-    __self: this
-  }, "2018 Rolling Scopes 2019 Q1 (JavaScript)")), __jsx("li", {
-    className: "jsx-897392319",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25
-    },
-    __self: this
-  }, __jsx("a", {
-    href: "https://www.freecodecamp.org/certification/slider7/javascript-algorithms-and-data-structures",
-    className: "jsx-897392319",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25
-    },
-    __self: this
-  }, "2018 freeCodeCamp JavaScript Algorithms and Data Structures"), "  "), __jsx("li", {
-    className: "jsx-897392319",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26
-    },
-    __self: this
-  }, __jsx("a", {
-    href: "https://www.freecodecamp.org/certification/slider7/legacy-front-end",
-    className: "jsx-897392319",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26
-    },
-    __self: this
-  }, "2016 freeCodeCamp Front End Development legacy certification"))), __jsx("a", {
-    href: "static/doc/Resume-\u0428\u043B\u0435\u043C\u0431\u0430\u0435\u0432-\u041A\u0435\u043C\u0430\u043B\u0445\u0430\u043D.pdf",
-    download: true,
-    className: "jsx-897392319",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28
-    },
-    __self: this
-  }, "\u0421\u043A\u0430\u0447\u0430\u0442\u044C \u0440\u0435\u0437\u044E\u043C\u0435")), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "897392319",
-    __self: this
-  }, ".company.jsx-897392319{font-weight:700;font-size:24px;}.about-text.jsx-897392319{color:#777;text-align:justify;max-width:800px;margin:30px auto 100px;padding:20px;}img.jsx-897392319{float:right;width:200px;border-radius:50%;margin:10px 0 20px 20px;}@media (max-width:600px){.about-text.jsx-897392319 img.jsx-897392319{float:none;display:block;margin:0 auto 30px;}}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxQcm9qZWN0c1xccG9ydC1uZXh0XFxwYWdlc1xcaW5kZXguanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBNkJnQixBQUd5QixBQUlMLEFBT0MsQUFPQyxXQWJNLEFBY0gsQ0FQSixJQVhHLFFBWUcsQ0FPRyxLQWRMLENBSmxCLFdBWTBCLEVBT3hCLEVBZHVCLG9CQVF6QixHQVBlLGFBQ2YiLCJmaWxlIjoiQzpcXFByb2plY3RzXFxwb3J0LW5leHRcXHBhZ2VzXFxpbmRleC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBMYXlvdXQgZnJvbSAnLi4vY29tcG9uZW50cy9MYXlvdXQnO1xyXG5cclxuY29uc3QgSG9tZXBhZ2UgPSAoKSA9PiAoXHJcbiAgPExheW91dD5cclxuICAgIDxoMj7QlNC+0LHRgNC+INC/0L7QttCw0LvQvtCy0LDRgtGMINC90LAg0LzQvtC5INGB0LDQudGCITwvaDI+XHJcbiAgICA8ZGl2IGNsYXNzTmFtZT1cImFib3V0LXRleHRcIj5cclxuICAgICAgPGltZyBzcmM9XCIvc3RhdGljL2ltZy9zbGlkZXIuanBnXCIgLz5cclxuICAgICAgPHA+XHJcbiAgICAgICAgPGVtPtCc0LXQvdGPINC30L7QstGD0YIg0JrQtdC80LDQu9GF0LDQvSDQqNC70LXQvNCx0LDQtdCyLjwvZW0+IDxici8+XHJcbiAgICAgICAg0K8gLSBJVC3RgdC/0LXRhtC40LDQu9C40YHRgiDQuCB3ZWIg0YDQsNC30YDQsNCx0L7RgtGH0LjQui3RgdCw0LzQvtGD0YfQutCwLlxyXG4gICAgICAgINCS0LXQsS3RgNCw0LfRgNCw0LHQvtGC0LrQsCDQtNCw0LXRgiDQvNC90LUg0LLQvtC30LzQvtC20L3QvtGB0YLRjCDRgdCw0LzQvtGB0L7QstC10YDRiNC10L3RgdGC0LLQvtCy0LDRgtGM0YHRjyDQuCDQv9C+0YHRgtC+0Y/QvdC90L4g0YDQsNGB0YLQuCDQsiDQvdCw0LLRi9C60LDRhS5cclxuICAgICAgICDQnNC90LUg0L3RgNCw0LLQuNGC0YHRjyDQv9GA0L7Qs9GA0LDQvNC80LjRgNC+0LLQsNGC0Ywg0Lgg0YPRh9C40YLRjNGB0Y8uIFxyXG4gICAgICAgINCm0LXQu9GMIC0g0L3QsNC50YLQuCDRgNCw0LHQvtGC0YMg0LrQvtGC0L7RgNCw0Y8g0L/QvtC30LLQvtC70LjRgiDRgNCw0YHRgtC4INC/0YDQvtGE0LXRgdGB0LjQvtC90LDQu9GM0L3Qviwg0YHQvtC30LTQsNCy0LDRjyDRh9GC0L4t0YLQviDQv9C+0LvQtdC30L3QvtC1LlxyXG4gICAgICA8L3A+XHJcbiAgICAgIDxwPlxyXG4gICAgICAgINCh0YLQsNC2IC0g0LHQvtC70LXQtSAxMiDQu9C10YIg0LIg0JjQoi3RgdC10YDQstC40YHQtSAtIGhlbHAtZGVzay/RgtC10YXQv9C+0LTQtNC10YDQttC60LAsINC70L7QutCw0LvRjNC90YvQtSDRgdC10YLQuCwg0YHQuNGB0YLQtdC80L3QvtC1INCw0LTQvNC40L3QuNGB0YLRgNC40YDQvtCy0LDQvdC40LUuXHJcbiAgICAgIDwvcD5cclxuICAgICAgPHA+XHJcbiAgICAgICAgPGVtPtCe0L/Ri9GCINC/0YDQvtCz0YDQsNC80LzQuNGA0L7QstCw0L3QuNGPPC9lbT4gLSBKYXZhU2NyaXB0LCBPYmplY3QgUGFzY2FsKERlbHBoaSksIFNRTC9QTC1TUUwgLSDRgNC10LvRj9GG0LjQvtC90L3Ri9C1INCh0KPQkdCUIChJbnRlcmJhc2UsIE15U1FMLCBPcmFjbGUpLlxyXG4gICAgICA8L3A+XHJcblxyXG4gICAgICA8aDQ+0KHQtdGA0YLQuNGE0LjQutCw0YLRizo8L2g0PlxyXG4gICAgICAgIDx1bD5cclxuICAgICAgICAgIDxsaT48YSBocmVmPVwiaHR0cHM6Ly9hcHAucnMuc2Nob29sL2NlcnRpZmljYXRlLzkybXZjcDVsXCI+MjAxOCBSb2xsaW5nIFNjb3BlcyAyMDE5IFExIChKYXZhU2NyaXB0KTwvYT48L2xpPlxyXG4gICAgICAgICAgPGxpPjxhIGhyZWY9XCJodHRwczovL3d3dy5mcmVlY29kZWNhbXAub3JnL2NlcnRpZmljYXRpb24vc2xpZGVyNy9qYXZhc2NyaXB0LWFsZ29yaXRobXMtYW5kLWRhdGEtc3RydWN0dXJlc1wiPjIwMTggZnJlZUNvZGVDYW1wIEphdmFTY3JpcHQgQWxnb3JpdGhtcyBhbmQgRGF0YSBTdHJ1Y3R1cmVzPC9hPiAgPC9saT5cclxuICAgICAgICAgIDxsaT48YSBocmVmPVwiaHR0cHM6Ly93d3cuZnJlZWNvZGVjYW1wLm9yZy9jZXJ0aWZpY2F0aW9uL3NsaWRlcjcvbGVnYWN5LWZyb250LWVuZFwiPjIwMTYgZnJlZUNvZGVDYW1wIEZyb250IEVuZCBEZXZlbG9wbWVudCBsZWdhY3kgY2VydGlmaWNhdGlvbjwvYT48L2xpPlxyXG4gICAgICAgIDwvdWw+XHJcbiAgICAgIDxhIGhyZWY9XCJzdGF0aWMvZG9jL1Jlc3VtZS3QqNC70LXQvNCx0LDQtdCyLdCa0LXQvNCw0LvRhdCw0L0ucGRmXCIgZG93bmxvYWQ+0KHQutCw0YfQsNGC0Ywg0YDQtdC30Y7QvNC1PC9hPlxyXG4gICAgPC9kaXY+XHJcbiAgICA8c3R5bGUganN4PntgXHJcbiAgICAgIC5jb21wYW55IHtcclxuICAgICAgICBmb250LXdlaWdodDogNzAwO1xyXG4gICAgICAgIGZvbnQtc2l6ZTogMjRweDtcclxuICAgICAgfVxyXG4gICAgICAuYWJvdXQtdGV4dCB7XHJcbiAgICAgICAgY29sb3I6ICM3Nzc7XHJcbiAgICAgICAgdGV4dC1hbGlnbjoganVzdGlmeTtcclxuICAgICAgICBtYXgtd2lkdGg6IDgwMHB4O1xyXG4gICAgICAgIG1hcmdpbjogMzBweCBhdXRvIDEwMHB4O1xyXG4gICAgICAgIHBhZGRpbmc6IDIwcHg7XHJcbiAgICAgIH1cclxuICAgICAgaW1nIHtcclxuICAgICAgICBmbG9hdDogcmlnaHQ7XHJcbiAgICAgICAgd2lkdGg6IDIwMHB4O1xyXG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDUwJTtcclxuICAgICAgICBtYXJnaW46IDEwcHggMCAyMHB4IDIwcHg7XHJcbiAgICAgIH1cclxuICAgICAgQG1lZGlhIChtYXgtd2lkdGg6IDYwMHB4KSB7XHJcbiAgICAgICAgLmFib3V0LXRleHQgaW1nIHtcclxuICAgICAgICAgIGZsb2F0OiBub25lO1xyXG4gICAgICAgICAgZGlzcGxheTogYmxvY2s7XHJcbiAgICAgICAgICBtYXJnaW46IDAgYXV0byAzMHB4O1xyXG4gICAgICAgIH1cclxuICAgICAgfVxyXG4gICAgYH08L3N0eWxlPlxyXG4gIDwvTGF5b3V0PlxyXG4pO1xyXG5cclxuZXhwb3J0IGRlZmF1bHQgSG9tZXBhZ2U7Il19 */\n/*@ sourceURL=C:\\Projects\\port-next\\pages\\index.js */"));
+  }));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Homepage);
+/* harmony default export */ __webpack_exports__["default"] = (Portfolio);
 
 /***/ }),
 
-/***/ 0:
-/*!***************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CProjects%5Cport-next%5Cpages%5Cindex.js ***!
-  \***************************************************************************************************************/
+/***/ 2:
+/*!****************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fportfolio&absolutePagePath=C%3A%5CProjects%5Cport-next%5Cpages%5Cportfolio.js ***!
+  \****************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CProjects%5Cport-next%5Cpages%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CProjects%5Cport-next%5Cpages%5Cindex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fportfolio&absolutePagePath=C%3A%5CProjects%5Cport-next%5Cpages%5Cportfolio.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fportfolio&absolutePagePath=C%3A%5CProjects%5Cport-next%5Cpages%5Cportfolio.js!./");
 
 
 /***/ }),
@@ -12080,5 +12083,5 @@ module.exports = dll_6b5a3ee2368b61971f52;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js"]]]);
-//# sourceMappingURL=index.js.map
+},[[2,"static/runtime/webpack.js"]]]);
+//# sourceMappingURL=portfolio.js.map

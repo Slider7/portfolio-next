@@ -4,17 +4,17 @@ const Menu = () => (
   <ul className="menu">
     <li>
       <Link href="/">
-        <a>Home</a>
+        <a>Главная</a>
       </Link>
     </li>
     <li>
       <Link href="/portfolio">
-        <a>Portfolio</a>
+        <a>Портфолио</a>
       </Link>
     </li>
     <li>
       <Link href="/contacts">
-        <a>Contacts</a>
+        <a>Контакты</a>
       </Link>
     </li>
     <style jsx>{`
