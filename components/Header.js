@@ -5,7 +5,7 @@ const Header = () => (
     <Menu />
     <style jsx>{`
       .header-wrapper {
-        padding: 30px;
+        padding: 8px;
         display: flex;
         justify-content: space-between;
         align-items: center;

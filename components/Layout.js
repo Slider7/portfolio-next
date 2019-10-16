@@ -25,7 +25,6 @@ const Layout = props => (
       *::after {
         box-sizing: border-box;
       }
-
       body {
         margin: 0;
         font-size: 20px;
@@ -50,7 +49,7 @@ const Layout = props => (
       h1,
       h2,
       h3 {
-        margin: 40px 0 30px;
+        margin: 10px 0;
       }
 
       h1 {
@@ -62,7 +61,7 @@ const Layout = props => (
       }
 
       p {
-        margin: 0 0 10px;
+        margin: 0 0 8px;
       }
 
       img {
