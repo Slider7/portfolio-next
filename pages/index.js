@@ -21,7 +21,7 @@ const Homepage = () => (
 
       <h4>Сертификаты:</h4>
         <ul>
-          <li><a href="https://app.rs.school/certificate/92mvcp5l">2018 Rolling Scopes 2019 Q1 (JavaScript)</a></li>
+          <li><a href="https://app.rs.school/certificate/92mvcp5l">2019 Rolling Scopes 2019 Q1 (JavaScript)</a></li>
           <li><a href="https://www.freecodecamp.org/certification/slider7/javascript-algorithms-and-data-structures">2018 freeCodeCamp JavaScript Algorithms and Data Structures</a>  </li>
           <li><a href="https://www.freecodecamp.org/certification/slider7/legacy-front-end">2016 freeCodeCamp Front End Development legacy certification</a></li>
         </ul>
