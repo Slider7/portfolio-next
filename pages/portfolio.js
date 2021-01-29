@@ -28,7 +28,7 @@ const works = [{
   {
     path: `/static/img/youtube.jpg`,
     description: 'Youtube-клиент для поиска и просмотра на основе Youtube API, vanilla JS.',
-    link: 'https://slider7.github.io/youtube-client/',
+    link: 'https://slider7.github.io/youtube_client/',
     github: 'https://github.com/Slider7/youtube_client/'
   },
 ];
