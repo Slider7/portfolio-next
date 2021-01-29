@@ -29,14 +29,8 @@ const works = [{
     path: `/static/img/youtube.jpg`,
     description: 'Youtube-клиент для поиска и просмотра на основе Youtube API, vanilla JS.',
     link: 'https://slider7.github.io/youtube-client/',
-    github: 'https://github.com/Slider7/youtube-client/'
+    github: 'https://github.com/Slider7/youtube_client/'
   },
-  {
-    path: `/static/img/rss-chat.jpg`,
-    description: 'Чат-клиент на основе websocket, React.js.',
-    link: 'https://slider7.github.io/rss-chat',
-    github: 'https://github.com/Slider7/rss-chat/'
-  }
 ];
 
 
