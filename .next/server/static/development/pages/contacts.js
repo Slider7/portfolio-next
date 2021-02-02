@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 6);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -2202,7 +2202,7 @@ const Contacts = () => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_2__["de
 
 /***/ }),
 
-/***/ 6:
+/***/ 4:
 /*!*********************************!*\
   !*** multi ./pages/contacts.js ***!
   \*********************************/

@@ -12046,7 +12046,7 @@ var Contacts = function Contacts() {
 
 /***/ }),
 
-/***/ 3:
+/***/ 1:
 /*!**************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fcontacts&absolutePagePath=C%3A%5CProjects%5Cport-next%5Cpages%5Ccontacts.js ***!
   \**************************************************************************************************************************/
@@ -12069,5 +12069,5 @@ module.exports = dll_6b5a3ee2368b61971f52;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=contacts.js.map

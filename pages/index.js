@@ -6,9 +6,9 @@ const Homepage = () => (
     <div className="about-text">
       <img src="/static/img/slider.jpg" />
       <p>
-        <em>Меня зовут Кемалхан Шлембаев.</em> <br/>
+        <em>Меня зовут Кемалхан Шлембаев.</em> <br />
         Я - IT-специалист и разработчик-самоучка.
-        Мне нравится программировать и учиться. 
+        Мне нравится программировать и учиться.
         Веб-разработка дает мне возможность самосовершенствоваться и постоянно расти в навыках.
         Цель - расти профессионально, создавая что-то полезное.
       </p>
@@ -19,13 +19,13 @@ const Homepage = () => (
         <em>Опыт программирования</em> - JavaScript, Object Pascal(Delphi), SQL/PL-SQL - реляционные СУБД (Interbase, MySQL, Oracle), знаком с Kotlin и Android Studio(retrofit, viewmodel).
       </p>
 
-      <h4>Законченный онлайн-курсы / сертификаты:</h4>
-        <ul>
-          <li><a href="#">2020 Kolesa Upgrade Android-разработка</a></li>
-          <li><a href="https://app.rs.school/certificate/92mvcp5l">2019 Rolling Scopes 2019 Q1 (JavaScript)</a></li>
-          <li><a href="https://www.freecodecamp.org/certification/slider7/javascript-algorithms-and-data-structures">2018 freeCodeCamp JavaScript Algorithms and Data Structures</a>  </li>
-          <li><a href="https://www.freecodecamp.org/certification/slider7/legacy-front-end">2016 freeCodeCamp Front End Development legacy certification</a></li>
-        </ul>
+      <h4>Сертификаты:</h4>
+      <ul>
+        <li><a href="#">2020 Kolesa Upgrade Android-разработка</a></li>
+        <li><a href="https://app.rs.school/certificate/92mvcp5l">2019 Rolling Scopes 2019 Q1 (JavaScript)</a></li>
+        <li><a href="https://www.freecodecamp.org/certification/slider7/javascript-algorithms-and-data-structures">2018 freeCodeCamp JavaScript Algorithms and Data Structures</a>  </li>
+        <li><a href="https://www.freecodecamp.org/certification/slider7/legacy-front-end">2016 freeCodeCamp Front End Development legacy certification</a></li>
+      </ul>
       <a href="static/doc/Resume-Шлембаев-Кемалхан.pdf" download>Скачать резюме</a>
     </div>
     <style jsx>{`

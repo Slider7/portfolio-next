@@ -7,8 +7,8 @@ const Gallery = ({ works }) => (
           <div className='info'>
             <p>{work.description}</p>
             <div>
-              <a className='link-btn' href= {work.link} target='_blank'>Просмотреть</a>
-              <a className='link-btn' href= {work.github} target='_blank'>GitHub</a>
+              <a className='link-btn' href={work.link} target='_blank'>Просмотреть</a>
+              <a className='link-btn' href={work.github} target='_blank'>GitHub</a>
             </div>
           </div>
         </div>
@@ -70,6 +70,10 @@ const Gallery = ({ works }) => (
         .portfolio-item .info .link-btn{
           margin-left: 5px;
           width: 120px;
+        }
+       .portfolio-item img{
+            height: 50%;
+            margin: auto;
         }
       }
     `}</style>
